@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss';
+
+@theme {
+  --font-nunito: Nunito, sans-serif;
+
+  /* COLOR */
+  --color-football-primary: #f5ac00;
+  --color-football-sub: #fef1d8;
+  --color-football-blue11: #11006f;
+  --color-football-grayF6: #f6f5f9;
+  --color-football-gray7A: #7a7a9d;
+}
