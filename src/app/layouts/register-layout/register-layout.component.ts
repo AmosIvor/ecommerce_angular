@@ -1,7 +1,7 @@
 import { Component } from '@angular/core'
 import { RouterOutlet } from '@angular/router'
-import { FooterComponent } from '@components/footer/footer.component'
-import { RegisterHeaderComponent } from '@components/register-header/register-header.component'
+import { FooterComponent } from '@shared/components/footer/footer.component'
+import { RegisterHeaderComponent } from '@shared/components/register-header/register-header.component'
 
 @Component({
   selector: 'app-register-layout',
