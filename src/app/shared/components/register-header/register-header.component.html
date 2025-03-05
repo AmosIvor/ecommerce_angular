@@ -5,7 +5,12 @@
         <span class="text-football-blue11">HVPP </span>
         <span>Sports</span>
       </a>
-      <span class="ml-10 text-[20px] font-semibold text-black">Dang ky</span>
+      <a
+        [routerLink]="[isRegisterRouter ? '/login' : '/register']"
+        routerLinkActive="active"
+        class="ml-10 text-[20px] font-semibold text-black"
+        >{{ isRegisterRouter ? 'Đăng nhập' : 'Đăng ký' }}</a
+      >
     </div>
   </div>
 </div>
