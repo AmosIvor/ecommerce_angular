@@ -36,19 +36,6 @@ module.exports = tseslint.config(
           ignoreProperties: true, // Ensures case 2 gets a warning
           ignoreParameters: false
         }
-      ],
-      '@typescript-eslint/typedef': [
-        'warn',
-        {
-          arrayDestructuring: true,
-          arrowParameter: true,
-          memberVariableDeclaration: true,
-          objectDestructuring: true,
-          parameter: true,
-          propertyDeclaration: true,
-          variableDeclaration: true,
-          variableDeclarationIgnoreFunction: true
-        }
       ]
     }
   },

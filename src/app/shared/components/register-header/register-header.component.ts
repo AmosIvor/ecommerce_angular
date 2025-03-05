@@ -1,5 +1,6 @@
 import { Component } from '@angular/core'
 import { Router, RouterLink, RouterLinkActive } from '@angular/router'
+import { PATH } from '@shared/utilities/constants'
 
 @Component({
   selector: 'app-register-header',
@@ -9,10 +10,11 @@ import { Router, RouterLink, RouterLinkActive } from '@angular/router'
 })
 export class RegisterHeaderComponent {
   isRegisterRouter: boolean = false
+  PATH = PATH
 
   constructor(private router: Router) {
     this.router.events.subscribe(() => {
-      this.isRegisterRouter = this.router.url === '/register'
+      this.isRegisterRouter = this.router.url === PATH.register
     })
   }
 }

@@ -6,7 +6,7 @@
         <span>Sports</span>
       </a>
       <a
-        [routerLink]="[isRegisterRouter ? '/login' : '/register']"
+        [routerLink]="[isRegisterRouter ? PATH.login : PATH.register]"
         routerLinkActive="active"
         class="ml-10 text-[20px] font-semibold text-black"
         >{{ isRegisterRouter ? 'Đăng nhập' : 'Đăng ký' }}</a
